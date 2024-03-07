@@ -1,0 +1,32 @@
+
+.slider_section{
+    width: 100%;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    // overflow: ;
+}
+.contact{
+    display: flex;
+}
+
+.highlight{
+    display: flex; flex-direction: column;justify-content: center;align-items: center;
+    width: 100%;
+    margin-inline: auto;
+    margin-block: 50px;
+    h1{
+        font-size: 50px;
+        font-weight: normal;
+        color: var(--primary);
+        border-bottom: 1px solid var(--primary);
+        padding-bottom: 20px;
+    }
+}
+
+.ads{
+    display: flex;
+    width: 60%;
+    margin-inline: auto;
+}

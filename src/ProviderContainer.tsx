@@ -6,13 +6,13 @@ import { Tchildren } from './Layout/app/Types'
 function ProviderContainer({children}:Tchildren) {
   return (
  <BrowserRouter basename='/'>
-        {/* <ReduxT> */}
+        <ReduxT>
      <QueryProvider>
         {/* <ToastProvider> */}
              {children}
         {/* </ToastProvider> */}
     </QueryProvider>
-    {/* </ReduxT> */}
+    </ReduxT>
 </BrowserRouter>
     )
 }

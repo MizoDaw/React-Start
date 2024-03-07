@@ -42,7 +42,7 @@ const Translate: React.FC = () => {
   ];
 
   return (
-    <Space direction="vertical">
+    <Space  direction="vertical">
       <Dropdown menu={{ items }} placement="top">
         <Button disabled>{currentlanguage === 'en' ? <EnLanguage /> : <ArLanguage />}</Button>
       </Dropdown>

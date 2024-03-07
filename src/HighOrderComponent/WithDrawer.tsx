@@ -5,7 +5,7 @@ import {  Drawer, Space } from 'antd';
 interface WithDrawerProps {
   button: React.ReactNode;
   children: ReactNode;
-  title:string;
+  title:any;
   className?:string
 }
 
@@ -23,6 +23,7 @@ const WithDrawer: React.FC<WithDrawerProps> = ({ button, children,title ="Basic 
         })}
       </Space>
       <Drawer
+      className='drawerFilter'
         title={title}
         placement={placement}
         closable={false}
